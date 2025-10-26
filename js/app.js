@@ -1,9 +1,9 @@
 // JavaScript code for the simple to-do list application
 
 document.addEventListener('DOMContentLoaded', function() {
-    const taskInput = document.getElementById('task-input');
-    const addTaskButton = document.getElementById('add-task');
-    const taskList = document.getElementById('task-list');
+    const taskInput = document.getElementById('taskInput');
+    const addTaskButton = document.getElementById('addTaskButton');
+    const taskList = document.getElementById('taskList');
 
     addTaskButton.addEventListener('click', function() {
         const taskText = taskInput.value.trim();
